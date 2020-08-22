@@ -6,4 +6,4 @@ tools and it's also need some configuration i'll make a good readme file whene i
 make it for you
 #demo
 * this is the main window of the tool 
-![main window](./img/img1.png)
+ ![main window](./img/img1.png)
