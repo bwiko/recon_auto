@@ -9,7 +9,7 @@ import threading
 
 class Main(QtWidgets.QWidget,Ui_Recon) : 
 	# :DN:->domain name  :FN:->file name 
-	path = "/media/bl0x41cko/b6e9e652-b822-4754-aa85-1fc74a54d597/recon_test"
+	path = ""
 	command_auto = {"assetfinder:1":"$HOME/go/bin/assetfinder :DN: > "+path+"/:FN:/:FN:_asset",
 	"subfinder:1":"subfinder -d ':DN:' -o '"+path+"/:FN:/:FN:_SF'",
 	"sublist3r:1":"sublist3r -d ':DN:' -o '"+path+"/:FN:/:FN:_SL'",
@@ -71,7 +71,7 @@ class Main(QtWidgets.QWidget,Ui_Recon) :
 			QtWidgets.QMessageBox.about(self, "Tip", "All of the command was executed successfully !!")#the tool finish
 		else : 
 			self.attack.setEnabled(True)	
-			QtWidgets.QMessageBox.about(self, "Tip", "Nice Try bitch !!")#it's a joke bitch hhh
+			QtWidgets.QMessageBox.about(self, "Tip", "Nice Try  !!")#it's a  hhh
 		#self.attack.setEnabled(False)
 		self.Close.setEnabled(True)	
 	
